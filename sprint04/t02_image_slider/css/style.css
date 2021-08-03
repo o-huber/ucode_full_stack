@@ -1,0 +1,65 @@
+.container{
+    background-color: lightgrey;
+    margin-top: 0;
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider{
+    width: 554px;
+    height: 354px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+#itemOne {
+    background-color: #0099CC;
+    background-image: url("http://www.kirupa.com/images/blueSquare.png");
+}
+#itemTwo {
+    background-color: #FFCC00;
+    background-image: url("http://www.kirupa.com/images/yellowSquare.png");
+}
+#itemThree {
+    background-color: #FF6666;
+    background-image: url("http://www.kirupa.com/images/pinkSquare.png");
+}
+#itemFour {
+    background-color: #E8E8E8;
+    background-image: url("http://www.kirupa.com/images/graySquare.png");
+}
+.slider-line{
+    height: 354px;
+    width: 2216px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slider-prev{
+    background-color: grey;
+    color: white;
+    margin-left: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    justify-content: center;
+}
+
+.slider-next{
+    display: flex;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    width: 30px;
+    justify-content: center;
+}
+
+img{
+    width: 550px;
+    height: 350px;
+    padding: 5px;
+}

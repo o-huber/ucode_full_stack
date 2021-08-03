@@ -1,0 +1,45 @@
+body{
+  position: relative;
+}
+.dragEl {
+    position: absolute;
+    
+    width: 150px;
+    height: 150px;
+    display: block;
+    
+    cursor: pointer;
+  }
+ .dragEl-1{
+    left: 450px;
+    top: 150px;
+    background: #ff0000;
+  }
+  .dragEl-2{
+    left: 450px;
+    top: 500px;
+    background: #45bb17;
+  }
+  .dragEl-3{
+    left: 450px;
+    top: 330px;
+    background: #111c7c;
+  }
+  .dragEl-4{
+    left: 630px;
+    top: 150px;
+    background: #6559b3;
+  }
+  .dragEl-5{
+    left: 630px;
+    top: 500px;
+    background: #51ff00;
+  }
+  .dragEl-6{
+    left: 630px;
+    top: 330px;
+    background: #e4e010;
+  }
+  .active{
+      border: 7px dotted black;
+  }
